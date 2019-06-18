@@ -17,8 +17,11 @@ date: 2019-06-17 20:06:19
 
 ## 安装步骤
 
+### 安装git
+`brew install git`
+
 ### 安装node
-`yum install node`
+`brew install node`
 
 ### 安装hexo
 `sudo npm install -g hexo`
@@ -42,15 +45,34 @@ date: 2019-06-17 20:06:19
 ### 如果hexo-deployer-git失败
 试试这个命令`sudo npm install --unsafe-perm hexo-deployer-git --save`
 
-### 写博客
+## 主题个性化设置
+
+### 汉化
+在站点设置下的`<b>_config.yml</b>`，设置`language: en-Hans`
+
+### 新建标签页面
+`hexo new page tags`
+设置type类型为tags，`type: tags`
+
+### 新建分类页面
+`hexo new page categories`
+设置type类型为categories，`type: categories:`
+
+### 新建关于页面
+`hexo new page about`
+设置type类型为about，`type: about`
+
+
+
+## 写博客
 博客目录`source/_posts/`
+### 新建博客
 先写草稿`hexo new draft xxx`，完成后发布文章 `hexo publish xxx`
 也可以直接写发布文章`hexo new xxx`
 
 ### 博客列表展示博客摘要的方法
 在首页显示文章的摘录并显示 阅读全文 按钮，可以通过以下方法：
-
-1. 在文章中使用 <!-- more --> 手动进行截断，Hexo 提供的方式荐
+1. 在文章中使用 `<!-- more -->` 手动进行截断，Hexo 提供的方式，推荐使用
 2. 在文章的 front-matter 中添加 description，并提供文章摘录
 3. 自动形成摘要，在 主题配置文件 中添加：
 ```
@@ -72,7 +94,3 @@ auto_excerpt:
 > `hexo g = hexo generate`
 > `hexo d = hexo deploy`
 
-### 新建标签页面
-`hexo new page tags`
-### 新建分类页面
-`hexo new page categories`
