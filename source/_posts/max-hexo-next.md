@@ -1,11 +1,12 @@
 ---
-title: Max下搭建hexo-next博客教程
+title: Mac下搭建hexo-next博客教程
 categories:
   - 教程
 tags:
   - Mac
   - Hexo
   - Next
+  - Blog
 date: 2019-06-17 20:06:19
 ---
 
