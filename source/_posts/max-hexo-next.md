@@ -95,3 +95,9 @@ auto_excerpt:
 > `hexo g = hexo generate`
 > `hexo d = hexo deploy`
 
+### 插入图片
+> 方式一
+图片放在`source/images`目录下，在正文中通过`![](/images/avatar.jpeg)`引入图片
+> 方式二
+修改`_config.yml`站点配置，设置`post_asset_folder: true`，安装`npm install https://github.com/CodeFalling/hexo-asset-image --save`，新建博客`hexo new xxx`时，Hexo
+会自动建立一个与文章同名的文件夹；以前的文章也可以自己手动创建同名文件夹。然后通过`![](xxx/logo.jpg)`引入图片
