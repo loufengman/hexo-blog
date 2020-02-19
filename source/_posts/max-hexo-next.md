@@ -1,12 +1,11 @@
 ---
 title: Mac下搭建hexo-next博客教程
 categories:
-  - 教程
+  - 工具
 tags:
-  - Mac
   - Hexo
   - Next
-  - Blog
+  - 博客搭建
 date: 2019-06-17 20:06:19
 ---
 

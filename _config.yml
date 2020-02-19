@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 杂记
-subtitle: 攻城狮
-description: 山雨欲来风满楼
+title: 西北玄天一片云
+subtitle: Control+C, Control+v 
+description: 我就不信一个人可以在一生所有的路口都选错方向，坚持自己的判断，总会选对几次
 keywords: IT，互联网
 author: 风满楼
 language: zh-Hans
@@ -82,3 +82,10 @@ deploy:
   repo: https://github.com/loufengman/loufengman.github.io
   branch: master
 
+# hexo-tag-cloud
+tag_cloud:
+    textFont: Trebuchet MS, Helvetica
+    textColor: '#333'
+    textHeight: 25
+    outlineColor: '#E2E1D1'
+    maxSpeed: 0.1 
